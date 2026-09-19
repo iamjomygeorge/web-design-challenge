@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #color-change-box{
+            width: 300px;
+            height: 300px;
+            border: 2px solid gray;
+            margin-bottom: 2px;
+        }
+    </style>
+    <div id="color-change-box"></div>
+    <div class="buttons">
+        <button onclick="colorChange('red')" id="red">Red</button>
+        <button onclick="colorChange('green')" id="green">Green</button>
+        <button onclick="colorChange('blue')" id="blue">Blue</button>
+        <button onclick="colorChange('orange')" id="orange">Orange</button>
+        <button onclick="colorChange('black')" id="black">Black</button>
+    </div>
+    <script>
+        function colorChange(color){
+            document.getElementById("color-change-box").style.background = color;
+        }
+    </script>
+</body>
+</html>
