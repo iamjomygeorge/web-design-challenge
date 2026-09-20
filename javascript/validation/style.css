@@ -1,0 +1,54 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+#header {
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-size: x-large;
+}
+
+#main-content-area {
+    display: flex;
+    flex: 1;
+    border: solid 2px gray;
+}
+
+#basic-explanation {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 30px;
+}
+
+#list-board {
+    flex: 1;
+    border: solid 4px gray;
+}
+
+#email {
+    margin: 5px;
+}
+
+#email-label {
+    margin: 5px;
+}
+
+#password {
+    margin: 5px;
+}
+
+#password-label {
+    margin: 5px;
+}
+
+#show-error {
+    margin-left: 15px;
+    color: red;
+}
